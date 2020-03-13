@@ -1,6 +1,6 @@
-const string="hola"
-const number=8
-const boolean= <
+const string="hola";
+const number=8;
+const boolean= false;
 
 function persona(nombre){
     return 'gaby'
@@ -11,14 +11,13 @@ function persona(nombre){
 
 
 let undefined=undefined;
-let undefined=NaN;
+let NaN=NaN;
 console.log(undefined)
 console.log(NaN)
 
 let myvalor =3;
 myvalor+1;
 console.log(3)
-
 
 let casa= {
     numerPuertas: 6,
