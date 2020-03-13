@@ -1,0 +1,14 @@
+Tipos de datos en Javascript 
+* String= Cadena de texto("Hola");                       const  string=hola
+* number= valores numericos("8");                                 const number=8
+* boolean=Solo puede tomar los valores verdadero o falso .("si") ("no";                      const boolean=false
+* object= devuelve un array que contiene los valores de las propiedades enumerables de un objeto dado("b24");          const object= gaby torres
+*function=n conjunto de sentencias que realizan una tarea o calculan un valor.("x","Y");                 cons fuction="return x*y")
+* null= es un literal (no una propiedad del objeto global como podría ser undefined). En APIs, se devuelve null normalmente dónde se espera un objeto pero éste no es relevante ("d===c");    const nul="d===c"
+*undefined= es una propiedad no-configurable,Una variable a la que no se le ha asignado valor, o no se ha declarado en absoluto (no se declara, no existe) son de tipo undefined. Un método o sentencia también devuelve undefined si la variable que se está evaluando no tiene asignado un valor. Una función devuelve undefined si no se ha devuelto un valor.(x==='undefined´);     cons undefined="x==='undefined'
+*NaN=El valor inicial de NaN es Not-A-Number (No es Un Número) - lo mismo que el valor de Number.NaN.
+NaN nunca es equivalente con cualquier otro número, incluido el mismo NaN; no puedes chequear el valor de un not-a-number comparándolo con Number.NaN.
+ Usar la función isNaN() para aquello.por lo tanto se considera como numero  ("a" -3);//NaN     cons NaN="a"-3;//NaN 
+*Symbol= s un tipo de datos cuyos valores son únicos e immutables. Dichos valores pueden ser utilizados como identificadores (claves) de las propiedades de los objetos.  Cada valor del tipo Symbol tiene asociado un valor del tipo String o Undefined que sirve únicamente como descripción del símbolo.symbol("foo")         cons symbol= object(sym); 
+
+

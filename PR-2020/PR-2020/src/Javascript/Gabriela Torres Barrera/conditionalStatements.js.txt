@@ -1,0 +1,90 @@
+Investigar y poner un ejemplo para los siguientes conditional statements:
+*La estructura más utilizada en JavaScript y en la mayoría de lenguajes de programación es la estructura IF
+Si la condición se cumple (es decir, si su valor es true) se ejecutan todas las instrucciones que se encuentran dentro del bloque {...}. Si la condición no se cumple (es decir, si su valor es false) no se ejecuta ninguna instrucción contenida en {...} y el programa continúa ejecutando el resto de instrucciones del script.
+ejemplo: 
+var mostrarMensaje = true;
+ 
+if(mostrarMensaje) {
+  console.log("Hola Mundo");
+}
+         
+                      ...  Si la condición se cumple (es decir, si su valor es true) se ejecutan todas las instrucciones que se encuentran dentro del if(). Si la condición no se cumple (es decir, si su valor es false) se ejecutan todas las instrucciones contenidas en else { }. Ejemplo:
+var edad = 18;
+ 
+if(edad >= 18) {
+  console.log("Eres mayor de edad");
+}
+
+
+*ESTRUCTURA SWITCH
+La estructura switch es muy útil cuando la condición que evaluamos puede tomar muchos valores. Si utilizasemos una sentencia if...else, tendríamos que repetir la condición para los distintos valores.
+ Ejemplo: 
+
+ var foo = 0;
+switch (foo) {
+  case -1:
+    console.log('1 negativo');
+    break;
+  case 0: // foo es 0, por lo tanto se cumple la condición y se ejecutara el siguiente bloque
+    console.log(0)
+    // NOTA: el "break" olvidado debería estar aquí
+  case 1: // No hay sentencia "break" en el 'case 0:', por lo tanto este caso también será ejecutado
+    console.log(1);
+    break; // Al encontrar un "break", no será ejecutado el 'case 2:'
+  case 2:
+    console.log(2);
+    break;
+  default:
+    console.log('default');
+}
+
+             var Animal = 'Jirafa';
+switch (Animal) {
+  case 'Vaca':
+  case 'Jirafa':
+  case 'Perro':
+  case 'Cerdo':
+    console.log('jirafa');
+    break;
+  case 'Dinosaurio':
+  default:
+    console.log('perro');
+}     
+
+*(IF ELSE)
+Las estructuras condicionales en javascript nos sirven para tomar decisiones en función de una condición que nosotros establecemos. Su sintáxis es así:
+if (condicion)
+{
+instrucciones que se ejecutarán si se cumple la condición
+}
+else
+{
+instrucciones que se ejecutarán si NO se cumple la condición
+}
+"If" es una sentencia que significa “si condicional”. La idea es que si sucede tal cosa, (si la condición es verdadera) se debe ejecutar la sentencia que le sigue, es decir la misma sólo se ejecutaría en caso de que la expresión de tipo Boolean sea verdadera. Si es falsa, el interprete pasará a la parte "else" que signfica "sino"; y ejecutará las instrucciones que existen dicha parte. La parte "else" no es obligatoria, pero aquí la mostramos para que sepáis que podemos ejecutar unas instrucciones en caso de que se cumpla la condición u otras en caso contrario. Os dejamos con un ejemplo práctico en el que solicitamos la edad al visitante y le dejamos entrar o no en base a su mayoría de edad:
+
+var edad = prompt("Dime tu edad");
+if (edad >17) {
+alert('Eres mayor de edad, puedes acceder');
+}else {
+alert('Eres menor de edad; NO puedes acceder');
+}
+console.log(edad);
+
+
+var dia=1; 
+if(dia == 1) {
+  console.log("Hoy es lunes.");
+} else if(dia == 2) {
+  console.log("Hoy es martes.");
+} else if(dia == 3) {
+  console.log("Hoy es miércoles.");
+} else if(dia == 4) {
+  console.log("Hoy es jueves.");
+} else if(dia == 5) {
+  console.log("Hoy es viernes.");
+} else if(dia == 6) {
+  console.log("Hoy es sábado.");
+} else if(dia == 0) {
+  console.log("Hoy es domingo.");
+}

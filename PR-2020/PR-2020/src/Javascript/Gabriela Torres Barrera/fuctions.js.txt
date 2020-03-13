@@ -1,0 +1,81 @@
+Genera una función llamada “multiplo” donde reciba un parámetro llamado “numero” y retorne el valor multiplicado por 3.
+
+function multiplo(numero){
+ return numero  *3; 
+};
+
+var resultado=multiplo(5)
+console.log(resultado);
+
+*Genera una función llamada “saludo”, esta funcion debe recibir un parametro llamado “nombre” y retornar el siguiente string: “Hola nombre_recibido”
+ 
+ function saludo(nombre){
+return 'hola' + nombre 
+};
+const resultadoSaludo = saludo ('gaby');
+console.log(resultadoSaludo);
+
+
+*Generar una funcion llamada “numeros” que imprima los numeros del 1 al 10;
+function numero(decimal){
+return  '1' + '2'+'3'+'4'+ '5'+'6'+'7'+'8'+'9'+'10';
+
+};
+
+var numeroDecimal=numero(1,2,3,4,5,6,7,8,9,10);
+console.log(numeroDecimal);
+
+
+5- implementar un ejemplo con ciclo for.
+  
+for (var i=0; i < 10; i++)
+  console.log(i);
+
+
+          for (var i = 5; i < 9; i++) {
+   i += i;
+};
+  console.log(i)
+
+
+6- Implementar un ejemplo con ciclo while.
+
+n = 2;
+x = 4;
+while (n < 3) {
+  n ++;
+  x += n;
+}
+console.log(n);
+
+                           2°  n = 1
+                                 x = 2;
+                               while (n < 4) {
+                                 n ++;
+                                     x += n;
+                                    }
+                               console.log(x);
+
+7- Implementar un ejemplo con map
+
+
+  var numbers = [1, 2, 3, 4, 5],
+    total = 0;
+     
+numbers.map(function (number) {
+    total += number;
+});
+console.log(numbers);
+       
+                                   
+                                        var promedio = [8,9,6,2],
+    total = 0;
+     
+promedio.map(function (number) {
+    total += number;
+});
+console.log(promedio);
+
+
+
+
