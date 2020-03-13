@@ -1,4 +1,6 @@
-1*function multiplo(numero){
+
+
+function multiplo(numero){
     return *3;
    };
    
@@ -6,24 +8,27 @@
    console.log(resultado);
 
 
+   //
 
-  2* function saludo(nombre){
+   function saludo(nombre){
        return 'lindo dia' +nombre
    };
    const resultadoSaludo=saludo('gaby');
    console.log(resultadoSaludo);
 
+//
 
-
- 3*  function numero(decimal){
+  function numero(decimal){
     return  '1' + '2'+'3'+'4'+ '5'+'6'+'7'+'8'+'9'+'10';
     
     };
     
     var numeroDecimal=numero(1,2,3,4,5,6,7,8,9,10);
     console.log(numeroDecimal);
+//
 
-    4* for (var i=0; i < 10; i++)
+
+     for (var i=0; i < 10; i++)
     console.log(i);
   
   
@@ -32,7 +37,9 @@
   };
     console.log(i)
 
-    5* n = 2;
+//ejemplo1
+   
+    n = 2;
     x = 4;
     while (n < 3) {
       n ++;
@@ -40,7 +47,7 @@
     }
     console.log(n);             
     
-    
+    //ejemplo2
     
     n = 1
     x = 2;
@@ -50,8 +57,8 @@
        }
   console.log(x);             
 
-
-  6*   var numbers = [1, 2, 3, 4, 5],
+//ejemplo3
+   var numbers = [1, 2, 3, 4, 5],
   total = 0;
    
 numbers.map(function (number) {
@@ -60,7 +67,7 @@ numbers.map(function (number) {
 console.log(numbers);
 
 
-
+//ejemplo4 
 
 
 var promedio = [8,9,6,2],

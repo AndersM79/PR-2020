@@ -1,4 +1,4 @@
-  *if 
+  //if 
  
  var mostrarMensaje = true;
  
@@ -15,7 +15,7 @@ if(edad >= 18) {
 }
    
 
-*switch 
+//switch 
 
 var foo = 0;
 switch (foo) {
@@ -49,7 +49,7 @@ switch (Animal) {
     console.log('perro');
 }
 
-*if else 
+//if else 
 
 var edad = prompt("Dime tu edad");
 if (edad >17) {

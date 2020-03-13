@@ -39,7 +39,7 @@ for (var i=0; i < 10; i++)
 
 
 6- Implementar un ejemplo con ciclo while.
-
+ //ejemplo1
 n = 2;
 x = 4;
 while (n < 3) {
@@ -48,16 +48,18 @@ while (n < 3) {
 }
 console.log(n);
 
-                           2°  n = 1
-                                 x = 2;
-                               while (n < 4) {
-                                 n ++;
-                                     x += n;
-                                    }
-                               console.log(x);
+//ejemplo2
+n = 1
+  x = 2;
+while (n < 4) {
+ n ++;
+  x += n;
+  }
+  console.log(x);
+
 
 7- Implementar un ejemplo con map
-
+//ejemplo1
 
   var numbers = [1, 2, 3, 4, 5],
     total = 0;
@@ -67,8 +69,10 @@ numbers.map(function (number) {
 });
 console.log(numbers);
        
-                                   
-                                        var promedio = [8,9,6,2],
+
+
+       //ejemplo2                            
+ var promedio = [8,9,6,2],
     total = 0;
      
 promedio.map(function (number) {
